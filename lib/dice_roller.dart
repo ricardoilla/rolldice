@@ -32,11 +32,12 @@ class _DiceRollerState extends State<DiceRoller> {
         const SizedBox(
           height: 40,
         ),
-        TextButton(
+        ElevatedButton(
             onPressed: rollDice,
             style: TextButton.styleFrom(
                 //padding: const EdgeInsets.only(top: 20,),
-                foregroundColor: Colors.white,
+                foregroundColor: const Color.fromARGB(211, 255, 255, 255),
+                backgroundColor: Color.fromARGB(255, 27, 75, 4),
                 textStyle: const TextStyle(
                   fontSize: 28,
                 )),
